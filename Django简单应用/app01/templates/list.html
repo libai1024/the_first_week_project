@@ -1,0 +1,17 @@
+<p><a href="{% url 'add' %}">添加</a></p>
+<table border="1">
+    <tr>
+<td>姓名</td>
+<td>年龄</td>
+<td>电话</td>
+<td>操作</td>
+   </tr>
+{% for item in staff %}
+    <tr>
+    <td>{{ item.name }}</td>
+    <td>{{ item.age }}</td>
+    <td>{{ item.tel }}</td>
+    <td><a href="{% url 'change' item.id %}">修改</a><a href="{% url 'delete' item.id %}"> 删除</a></td>
+    </tr>
+{% endfor %}
+</table>
