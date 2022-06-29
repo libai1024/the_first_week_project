@@ -34,6 +34,7 @@ def cal_runtime(func):
         start = time.time()  # func开始的时间
         res = func(*args,**kwargs)
         end = time.time()  # func结束的时间
-        print(f"程序运行的总数时间:{end - start}秒")
+        print("装饰器计算出的时间如下：")
+        print(f"{func.__name__} 程序运行的总数时间:{end - start}秒")
         return res
     return inner
