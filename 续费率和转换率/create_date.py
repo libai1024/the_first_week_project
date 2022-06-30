@@ -3,7 +3,7 @@ from datetime import datetime
 
 import pymongo
 import random
-from pymongo_2.random_datetime import random_time
+from random_datetime import random_time
 
 FILE = "order.csv"
 myclient = pymongo.MongoClient('mongodb://localhost:27017/')
