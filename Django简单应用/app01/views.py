@@ -4,7 +4,9 @@ from django.shortcuts import render,redirect,reverse
 # Create your views here.
 from django.views import View
 
+from app01.celery_easy_test.celery_task import send_email
 from app01.forms import StaffForm, LoginForm
+from app01.log_config.logConfig_readdict import create_mylogger
 from employees.models import Staff
 from app01.myDecorator import log, cal_runtime
 
@@ -40,7 +42,7 @@ def list(request):
 
 @log
 @cal_runtime
-def add(request):
+def add(request, ):
     clean_errors={}
     if request.method == "GET":
         form = StaffForm()
@@ -49,7 +51,14 @@ def add(request):
         form = StaffForm(request.POST)
         if form.is_valid():
             data = form.cleaned_data
+            print(data)
             Staff.objects.create(**data)
+            try:
+                result = send_email.delay(data['detail'])
+            except:
+
+                mylogger = create_mylogger()
+                mylogger.error("发送失败！！！！")
             return redirect(reverse('list'))
         else:
             clean_errors = form.errors.get("__all__")
