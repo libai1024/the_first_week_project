@@ -1,0 +1,15 @@
+
+2022-06-30 15:17:27,631 - test - ERROR - error message
+2022-06-30 15:17:27,631 - test - CRITICAL - critical message
+2022-06-30 15:20:29,522 - test - ERROR - error message
+2022-06-30 15:20:29,522 - test - CRITICAL - critical message
+2022-06-30 15:23:49,594 - test - DEBUG - debug message
+2022-06-30 15:23:49,594 - test - INFO - info message
+2022-06-30 15:23:49,595 - test - WARNING - warn message
+2022-06-30 15:23:49,595 - test - ERROR - error message
+2022-06-30 15:23:49,595 - test - CRITICAL - critical message
+2022-06-30 15:27:50,376 - test - DEBUG - debug message
+2022-06-30 15:27:50,376 - test - INFO - info message
+2022-06-30 15:27:50,376 - test - WARNING - warn message
+2022-06-30 15:27:50,376 - test - ERROR - error message
+2022-06-30 15:27:50,377 - test - CRITICAL - critical message

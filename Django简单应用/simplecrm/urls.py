@@ -20,5 +20,5 @@ urlpatterns = [
     path('', LoginView.as_view(),name="login"),
     path('login/', LoginView.as_view(),name="login"),
     path('admin/', admin.site.urls),
-    path('app01/',include('app01.urls'))
+    path('app01/',include('app01.urls')),
 ]

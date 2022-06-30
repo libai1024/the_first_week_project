@@ -1,0 +1,53 @@
+2022-06-30 15:22:37,021 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:22:37,776 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/change/1'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:22:38,512 - test - DEBUG - func:inner(<WSGIRequest: POST '/app01/change/1'>,)-><HttpResponseRedirect status_code=302, "text/html; charset=utf-8", url="/app01/list/">
+2022-06-30 15:22:38,517 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:24:43,363 - asyncio - DEBUG - Using selector: SelectSelector
+2022-06-30 15:25:08,511 - asyncio - DEBUG - Using selector: SelectSelector
+2022-06-30 15:25:21,018 - test - DEBUG - func:inner(<app01.views.LoginView object at 0x0000028B3899F4C8>, <WSGIRequest: POST '/'>)-><HttpResponseRedirect status_code=302, "text/html; charset=utf-8", url="/app01/list/">
+2022-06-30 15:25:21,028 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:25:22,315 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/change/2'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:25:23,509 - test - DEBUG - func:inner(<WSGIRequest: POST '/app01/change/2'>,)-><HttpResponseRedirect status_code=302, "text/html; charset=utf-8", url="/app01/list/">
+2022-06-30 15:25:23,515 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:26:00,052 - asyncio - DEBUG - Using selector: SelectSelector
+2022-06-30 15:26:00,866 - test - INFO - info message
+2022-06-30 15:26:02,330 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:26:03,433 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/change/1'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:26:04,235 - test - DEBUG - func:inner(<WSGIRequest: POST '/app01/change/1'>,)-><HttpResponseRedirect status_code=302, "text/html; charset=utf-8", url="/app01/list/">
+2022-06-30 15:26:04,241 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:27:02,997 - asyncio - DEBUG - Using selector: SelectSelector
+2022-06-30 15:27:04,929 - test - INFO - info message
+2022-06-30 15:27:04,941 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:27:05,810 - test - INFO - info message
+2022-06-30 15:27:05,820 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/change/2'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:27:06,591 - test - INFO - info message
+2022-06-30 15:27:06,605 - test - DEBUG - func:inner(<WSGIRequest: POST '/app01/change/2'>,)-><HttpResponseRedirect status_code=302, "text/html; charset=utf-8", url="/app01/list/">
+2022-06-30 15:27:06,608 - test - INFO - info message
+2022-06-30 15:27:06,611 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:27:07,251 - test - INFO - info message
+2022-06-30 15:27:07,258 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/change/1'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:27:07,835 - test - INFO - info message
+2022-06-30 15:27:07,849 - test - DEBUG - func:inner(<WSGIRequest: POST '/app01/change/1'>,)-><HttpResponseRedirect status_code=302, "text/html; charset=utf-8", url="/app01/list/">
+2022-06-30 15:27:07,852 - test - INFO - info message
+2022-06-30 15:27:07,855 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:27:50,424 - asyncio - DEBUG - Using selector: SelectSelector
+2022-06-30 15:28:52,318 - asyncio - DEBUG - Using selector: SelectSelector
+2022-06-30 15:28:53,752 - test - INFO - info message
+2022-06-30 15:28:53,762 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:28:53,907 - test - INFO - info message
+2022-06-30 15:28:53,909 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:28:54,427 - test - INFO - info message
+2022-06-30 15:28:54,438 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/change/1'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:28:55,162 - test - INFO - info message
+2022-06-30 15:28:55,166 - test - DEBUG - func:inner(<WSGIRequest: POST '/app01/change/1'>,)-><HttpResponseRedirect status_code=302, "text/html; charset=utf-8", url="/app01/list/">
+2022-06-30 15:28:55,169 - test - INFO - info message
+2022-06-30 15:28:55,182 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:29:13,998 - asyncio - DEBUG - Using selector: SelectSelector
+2022-06-30 15:29:18,082 - test - INFO - info message
+2022-06-30 15:29:18,095 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/change/1'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:29:19,115 - test - INFO - info message
+2022-06-30 15:29:19,122 - test - DEBUG - func:inner(<WSGIRequest: POST '/app01/change/1'>,)-><HttpResponseRedirect status_code=302, "text/html; charset=utf-8", url="/app01/list/">
+2022-06-30 15:29:19,127 - test - INFO - info message
+2022-06-30 15:29:19,132 - test - DEBUG - func:inner(<WSGIRequest: GET '/app01/list/'>,)-><HttpResponse status_code=200, "text/html; charset=utf-8">
+2022-06-30 15:29:53,546 - asyncio - DEBUG - Using selector: SelectSelector
+2022-06-30 15:31:12,733 - asyncio - DEBUG - Using selector: SelectSelector

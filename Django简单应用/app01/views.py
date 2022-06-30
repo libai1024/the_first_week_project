@@ -6,7 +6,7 @@ from django.views import View
 
 from app01.forms import StaffForm, LoginForm
 from employees.models import Staff
-from app01.log import log, cal_runtime
+from app01.myDecorator import log, cal_runtime
 
 
 class LoginView(View):

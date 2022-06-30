@@ -1,0 +1,6 @@
+2022-06-30 15:38:10,481 | INFO | 3348 | myDecorator.py - inner : info message
+2022-06-30 15:38:11,484 | INFO | 3348 | myDecorator.py - inner : info message
+2022-06-30 15:38:11,493 | INFO | 3348 | myDecorator.py - inner : info message
+2022-06-30 15:38:12,370 | INFO | 3348 | myDecorator.py - inner : info message
+2022-06-30 15:38:13,503 | INFO | 3348 | myDecorator.py - inner : info message
+2022-06-30 15:38:13,509 | INFO | 3348 | myDecorator.py - inner : info message
